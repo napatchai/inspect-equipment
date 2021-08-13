@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.box{
+    border: 1px solid #E8E8E8;
+    border-radius: 20px;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    /* text-align: center; */
+    box-shadow: rgba(0, 0, 0.1, 0.1) 0px 4px 12px;
+}
+.logologin{
+    text-align: center;
+    margin-top: 20px;
+}
+.email{
+    width: 50%;
+    border: 1px solid #AAAAAA;
+    height: 40px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.iconmail{
+    margin-left: 15px;
+}
+.inputemail{
+    margin-top: 7px;
+    margin-left: 20px;
+    border: 0px;
+    width: 80%;
+    color: #707070;
+}
+.password{
+    width: 50%;
+    border: 1px solid #AAAAAA;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.login{
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+}
+.btnlogin{
+    color: #fff;
+    border: 0px;
+    background-color: #98D18E;
+    width: 33%;
+    border-radius: 20px;
+    height: 35px;
+}
+.forget{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 13px;
+}
+.createacc{
+    font-size: 15px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.create{
+    color: #000;
+    text-decoration: none;
+}
+@media all and (max-width: 1200px){
+    .box{
+        width: 80%;
+    }
+}
+@media all and (max-width: 850px){
+    .box{
+        width: 80%;
+    }
+    .inputemail{
+        margin-left: 20px;
+        border: 0px;
+        width: 70%;
+        color: #707070;
+    }
+}
+@media all and (max-width: 555px){
+    .inputemail{
+        margin-left: 20px;
+        border: 0px;
+        width: 50%;
+        color: #707070;
+    }
+}
+@media all and (max-width: 370px){
+    .inputemail{
+        margin-left: 5px;
+    }
+}
